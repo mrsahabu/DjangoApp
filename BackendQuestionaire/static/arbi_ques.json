@@ -1,0 +1,22 @@
+{
+
+	"que": "are you  hungry? (Yes/No)",
+	"ans": {
+		"true": [{
+			"que": "What would you like to eat? (Hamburger/Pizza/Chicken/Pop-corn)",
+			"ans":[{
+			  "hamburger":"Nice, Ok I will order",
+			  "pizza":[{
+			    "que":"Would you like pizza with mushrooms? (Yes/No)",
+			    "ans": {
+			      "true":"Ok I will order a pizza for you",
+			      "false": "eeAhh...??. ok .Stay Hungry."
+			    }
+			  }],
+			  "chicken":"I will order a chicken. Have a nice chicken",
+			  "popcorn":"You will get in 5 mins.."
+			}]
+		}],
+		"false": " ok. Call me when you're hungry."
+	}
+}

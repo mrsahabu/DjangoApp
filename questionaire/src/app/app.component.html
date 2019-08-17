@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+    <title>Task 2 by Muhammad Sahab</title>
+</head>
+<body>
+    <div class="container">
+       
+        <div class ="question-section">
+            <h5>Bot </h5><h5 class="bot-ques">{{data}}</h5> 
+            <h5>Answer </h5><input class="input-box" [(ngModel)]="boxValue" type="text" #box (keyup.enter)="validate_input(box.value)">
+            <p *ngIf="error">Either wrong input or some other issue. Page will refresh in 2 seconds.</p>
+        </div>
+        
+    </div>
+</body>  
