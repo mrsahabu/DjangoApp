@@ -1,0 +1,6 @@
+Docker Commands 
+
+
+sudo docker build -t questionaire:dev .
+sudo docker run -v ${PWD}:/app -v /app/node_modules -p 4200:4200 --rm questionaire:dev
+

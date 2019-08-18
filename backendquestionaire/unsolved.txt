@@ -1,0 +1,4 @@
+anaconda-client==1.6.9
+anaconda-navigator==1.8.7
+anaconda-project==0.8.2
+

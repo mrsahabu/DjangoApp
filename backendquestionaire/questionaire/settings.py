@@ -26,6 +26,7 @@ SECRET_KEY = 'bar_p2&av7b(zkv)bd*^w9m+px#1f$vq@sj^==hzrm+ijjf*(0'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '0.0.0.0'
 ]
 
 
@@ -73,6 +74,8 @@ TEMPLATES = [
 ]
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:4200",
+    "http://0.0.0.0:4200"
+	
 ]
 WSGI_APPLICATION = 'questionaire.wsgi.application'
 
